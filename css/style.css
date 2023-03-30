@@ -170,10 +170,10 @@ header .header_social a {
   padding-left: 95px;
 }
 #service .service_item.sibg2 {
-  background: url(../images/service2.png);
+  background: url(../images/service2.png) no-repeat center/cover;
 }
 #service .service_item.sibg3 {
-  background: url(../images/service3.png);
+  background: url(../images/service3.png) no-repeat center/cover;
 }
 #service .service_item::after {
   position: absolute;

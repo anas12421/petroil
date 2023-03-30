@@ -35,10 +35,10 @@
     padding-left: 95px;
 
     &.sibg2{
-      background: url(../images/service2.png);
+      background: url(../images/service2.png)  no-repeat center / cover;
     }
     &.sibg3{
-      background: url(../images/service3.png);
+      background: url(../images/service3.png) no-repeat center / cover;
     }
 
     &::after {
