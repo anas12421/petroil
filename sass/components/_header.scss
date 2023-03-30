@@ -1,0 +1,29 @@
+header {
+  padding: 10px 0;
+  background-color: #282828;
+  border-bottom: 2px solid #FFB800;
+
+  .header_contact {
+    p {
+      display: inline-block;
+      font-size: 12px;
+      color: #FFFFFF;
+      padding-right: 15px;
+      border-right: 1px solid #5C6A92;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .header_social {
+    display: flex;
+    justify-content: end;
+
+    a {
+      color: white;
+      margin-left: 16px;
+    }
+  }
+}

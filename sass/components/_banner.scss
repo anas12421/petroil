@@ -1,0 +1,24 @@
+#banner {
+  margin-top: 85px;
+  background: url(../images/banner.png) fixed no-repeat center / cover;
+  padding: 257px 0 340px 0;
+
+  .banner_text {
+    h1 {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 96px;
+      color: #FFFFFF;
+    }
+
+    a {
+      text-transform: uppercase;
+      padding: 13px 40px;
+      margin-top: 30px;
+      background-color: #F40404;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}

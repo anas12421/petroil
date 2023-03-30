@@ -1,0 +1,47 @@
+.menu {
+  background: #F40404;
+  box-shadow: 0px 0px 43px rgba(183, 183, 183, 0.25);
+  padding: 20px 0 !important;
+  position: fixed;
+  // top: 0;
+  width: 100% !important;
+  z-index: 9999;
+
+  &.menu_ex{
+    top: 0;
+    animation: menu_ex 1s;
+    -webkit-animation: menu_ex 1s;
+  }
+  
+
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 52px;
+
+      a {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF !important;
+        padding: 0 !important;
+
+        &.nav_con_btn {
+          margin-left: 15px;
+          padding: 6px 30px !important;
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+}
+
+@keyframes menu_ex {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 0;
+  }
+}
